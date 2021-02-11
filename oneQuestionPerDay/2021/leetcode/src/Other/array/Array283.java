@@ -1,4 +1,4 @@
-package Other;
+package Other.array;
 
 /**
  * 283. 移动零     难度：easy

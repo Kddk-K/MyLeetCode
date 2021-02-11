@@ -1,4 +1,4 @@
-package Other;
+package Other.array;
 
 /**只出现一次的数字  难度：easy
  *

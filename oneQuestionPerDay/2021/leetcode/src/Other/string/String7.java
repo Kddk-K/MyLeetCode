@@ -1,4 +1,4 @@
-package Other;
+package Other.string;
 
 /**
  * 7. 整数反转  难度：easy

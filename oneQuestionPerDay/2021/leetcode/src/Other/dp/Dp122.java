@@ -1,4 +1,4 @@
-package Other;
+package Other.dp;
 
 /**
  * 买卖股票的最佳时机 II  难度：easy
@@ -65,7 +65,10 @@ public class Dp122 {
         dp[0][0] = 0;
         dp[0][1] = -prices[0];
         for(int i = 1; i < len; i++){
+            //i天后手中无股 = 前一天也无股  或   前一天手中有股+第i天卖股票赚的钱
             dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + prices[i]);
+
+            //i天后手中有股 = 前一天就有股  或   前一天手中无股-第i天买股票花的钱
             dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - prices[i]);
         }
         return dp[len - 1][0];

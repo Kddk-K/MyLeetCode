@@ -1,4 +1,4 @@
-package Other;
+package Other.array;
 
 /**旋转数组  难度：medium
  *

@@ -1,4 +1,4 @@
-package Other;
+package Other.string;
 
 /**
  * 344. 反转字符串   难度：easy

@@ -1,4 +1,4 @@
-package Other;
+package Other.array;
 
 /**
  * 66.加一    难度：easy
