@@ -1,9 +1,10 @@
 package Other.link;
 
 public class ListNode {
+    public ListNode next;
     int val;
-    ListNode next;
-    ListNode(int x){
-        val = x;
-    }
-}
+     ListNode(int x) {
+         val = x;
+         next = null;
+     }
+ }
