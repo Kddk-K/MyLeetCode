@@ -33,11 +33,11 @@ import java.util.Stack;
  */
 
 //思路：双栈表示队列，队列是FIFO，用两个栈就能实现
-public class Mar0305_232 {
+public class Mar232_0305 {
     /** Initialize your data structure here. */
     Stack<Integer> a;
     Stack<Integer> b;
-    public Mar0305_232() {
+    public Mar232_0305() {
         a = new Stack<>();
         b = new Stack<>();
     }
