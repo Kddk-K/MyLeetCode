@@ -1,10 +1,13 @@
 package Other.rng;
 
 class ListNode {
-     int val;
-     ListNode next;
-     ListNode(int x) {
-         val = x;
-         next = null;
-     }
- }
+    public int val;
+    public int min;//最小值
+    public ListNode next;
+
+    public ListNode(int val, int min, ListNode next) {
+        this.val = val;
+        this.min = min;
+        this.next = next;
+    }
+}
